@@ -1,6 +1,6 @@
 node {
    stage 'Build BlockOnePTAssessment'
-   echo 'Compilation is done'
+   echo 'Compilation is Done'
    stage 'Deploy BlockOnePTAssessment'
    echo 'Deploy is done'
    stage 'Execute JMeter Performance Tests'
