@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="16562" it="0" lt="16561" ct="15532" ts="1623816618899" s="true" lb="T01_CreateUser" rc="200" rm="OK" tn="BP01_Customer_Onboarding 1-1" dt="text" by="1028" sby="418" ng="2" na="2">
+  <assertionResult>
+    <name>T01_CreateUser_Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://gorest.co.in/public-api/users</java.net.URL>
+</httpSample>
+<httpSample t="16241" it="0" lt="16240" ct="15211" ts="1623816619221" s="true" lb="T01_CreateUser" rc="200" rm="OK" tn="BP01_Customer_Onboarding 1-2" dt="text" by="1028" sby="418" ng="2" na="2">
+  <assertionResult>
+    <name>T01_CreateUser_Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://gorest.co.in/public-api/users</java.net.URL>
+</httpSample>
+<httpSample t="929" it="0" lt="929" ct="0" ts="1623816638520" s="true" lb="T02_GetUser" rc="200" rm="OK" tn="BP01_Customer_Onboarding 1-1" dt="text" by="974" sby="196" ng="2" na="2">
+  <assertionResult>
+    <name>T02_GetUser_Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://gorest.co.in/public-api/users/1508</java.net.URL>
+</httpSample>
+<httpSample t="914" it="0" lt="914" ct="0" ts="1623816638535" s="true" lb="T02_GetUser" rc="200" rm="OK" tn="BP01_Customer_Onboarding 1-2" dt="text" by="974" sby="196" ng="2" na="2">
+  <assertionResult>
+    <name>T02_GetUser_Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://gorest.co.in/public-api/users/1507</java.net.URL>
+</httpSample>
+<httpSample t="1000" it="0" lt="1000" ct="0" ts="1623816642465" s="true" lb="T03_UpdateUserDetails" rc="200" rm="OK" tn="BP01_Customer_Onboarding 1-2" dt="text" by="975" sby="406" ng="2" na="2">
+  <assertionResult>
+    <name>T03_UpdateUserDetails_Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://gorest.co.in/public-api/users/1507</java.net.URL>
+</httpSample>
+<httpSample t="1000" it="0" lt="1000" ct="0" ts="1623816642465" s="true" lb="T03_UpdateUserDetails" rc="200" rm="OK" tn="BP01_Customer_Onboarding 1-1" dt="text" by="975" sby="406" ng="2" na="2">
+  <assertionResult>
+    <name>T03_UpdateUserDetails_Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://gorest.co.in/public-api/users/1508</java.net.URL>
+</httpSample>
+<httpSample t="1003" it="0" lt="1002" ct="0" ts="1623816646478" s="true" lb="T04_DeleteUser" rc="200" rm="OK" tn="BP01_Customer_Onboarding 1-2" dt="text" by="764" sby="306" ng="2" na="2">
+  <assertionResult>
+    <name>T04_DeleteUser_Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://gorest.co.in/public-api/users/1507</java.net.URL>
+</httpSample>
+<httpSample t="1003" it="0" lt="1003" ct="0" ts="1623816646478" s="true" lb="T04_DeleteUser" rc="200" rm="OK" tn="BP01_Customer_Onboarding 1-1" dt="text" by="764" sby="306" ng="2" na="2">
+  <assertionResult>
+    <name>T04_DeleteUser_Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>https://gorest.co.in/public-api/users/1508</java.net.URL>
+</httpSample>
+
+</testResults>
