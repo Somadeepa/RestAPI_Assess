@@ -2,7 +2,7 @@ node {
    stage 'Build BlockOnePTAssessment'
    echo 'Compilation is Done'
    stage 'Deploy BlockOnePTAssessment'
-   echo 'Delpoy is Done'
+   echo 'Delpoy is done'
    stage 'Execute JMeter Performance Tests'
    bat 'C:\\jmeter\\apache-jmeter-5.4.1\\bin\\jmeter.bat -jjmeter.save.saveservice.output_format=xml -n -t C:\\jmeter\\BlockOne\\Script\\PT_SOMA_Assessment.jmx -Jthreads=2 -l C:\\jmeter\\BlockOne\\Result\\SomaAssessment1.jtl'
    perfReport 'C:\\jmeter\\BlockOne\\Result\\SomaAssessment1.jtl'
